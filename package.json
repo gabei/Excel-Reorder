@@ -1,0 +1,22 @@
+{
+  "name": "excel-reorder",
+  "version": "1.0.0",
+  "description": "Reorders excel filesfor library processing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabei/Excel-Reorder.git"
+  },
+  "author": "Gabe Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabei/Excel-Reorder/issues"
+  },
+  "homepage": "https://github.com/gabei/Excel-Reorder#readme",
+  "dependencies": {
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  }
+}

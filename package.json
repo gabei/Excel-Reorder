@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/gabei/Excel-Reorder#readme",
   "dependencies": {
-    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+    "exceljs": "^4.4.0"
   }
 }

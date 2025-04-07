@@ -15,7 +15,7 @@ Vendor 	PO 	Received	Fund Code	Pub Date	Top Note	Title	Sub-Title	Author	Qty	List
 
 const ExcelJS = require('exceljs');
 
-const requiredColumns = ["Vendor", "PO Received", "Fund", "Code",	"Pub Date", "Top Note", "Title",	"Sub-Title", "Author", "Qty",	"List Price",	"Unit Price",	"Line Price"];
+const requiredColumns = ["PO Received",	"Pub-Date", "Top Note", "Title", "Sub-Title", "Author-Artist", "Qty-Ordered", "List-Price", "Unit Price", "Line Price"];
 
 const resultingColumns = [];
 
@@ -25,8 +25,9 @@ async function readInFile(){
 
   worksheet.columns.forEach(column => {
     const thisColumnTitle = column.values[1];
-
+    
     if( requiredColumns.includes(thisColumnTitle) ) {
+      console.log(thisColumnTitle);
       resultingColumns.push(column);
     }
 
